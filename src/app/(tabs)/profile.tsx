@@ -1,16 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as ImagePicker from 'expo-image-picker';
 import { useEffect, useState } from 'react';
-import {
-  Alert,
-  Image,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+import {Alert,Image,ScrollView,StyleSheet,Text,TextInput,TouchableOpacity,View,} from 'react-native';
 
 export default function ProfileScreen() {
   const [studentName, setStudentName] = useState('');
